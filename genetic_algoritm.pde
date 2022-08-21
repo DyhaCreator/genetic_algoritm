@@ -11,7 +11,7 @@ void setup(){
   eat.add(b);
 }
 void draw(){
-  background(#00DBFF);
+  background(#aaDBFF);
   for(int i = 0;i<eat.size();i++){
     Eat a = eat.get(i);
     a.show();
